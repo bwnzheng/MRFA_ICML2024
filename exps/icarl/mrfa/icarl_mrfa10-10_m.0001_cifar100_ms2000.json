@@ -1,0 +1,21 @@
+{
+    "prefix": "reproduce",
+    "dataset": "cifar100",
+    "memory_size": 2000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 10,
+    "increment": 10,
+    "save_task_checkpoints": [0],
+    "load_ckpt": [],
+    "perturb_p": [0.0001,0.0001,0.0001,0.0001],
+    "num_augmem": 1,
+    "disable_perturb": false,
+    "auto_kd": false,
+    "model_name": "icarl_mrfa",
+    "convnet_type": "resnet32",
+    "device": ["0"],
+    "seed": [1993]
+}
+
